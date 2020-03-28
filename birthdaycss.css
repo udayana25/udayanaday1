@@ -1,0 +1,170 @@
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,200,200italic,300,300italic,900,700italic,700,600italic,600,400italic);
+body{
+  margin: 0;
+  background-image: url('back.jfif');
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+}
+.resize{
+  margin:100px 200px;
+  height: 600px;
+  width: 600px;
+}
+
+.details{
+  position: absolute;
+  top: 65%;
+  left: 12%;
+  color: #fff;
+}
+.bot{
+  color: orange;
+}
+audio{
+  position: absolute;
+  top:85%;
+  left:35%;
+  opacity: 0.5;
+}
+
+.css-typing p {
+  border-right: .15em solid orange;
+  font-family: 'Titillium Web', cursive;
+  font-size:23px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.css-typing p:nth-child(1) {
+  width: 35em;
+  animation: type 3s steps(40, end);
+  animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(2) {
+  width: 16.5em;
+  opacity: 0;
+  animation: type2 3s steps(40, end);
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(3) {
+  width: 20em;
+  opacity: 0;
+  animation: type3 3s steps(20, end), blink .5s step-end infinite alternate;
+  animation-delay: 6s;
+  animation-fill-mode: forwards;
+}
+.css-typing p:nth-child(4) {
+  width: 25em;
+  opacity: 0;
+  animation: type4 3s steps(20, end), blink .5s step-end infinite alternate;
+  animation-delay: 9s;
+  animation-fill-mode: forwards;
+}
+.css-typing p:nth-child(5) {
+  width: 5.5em;
+  opacity: 0;
+  animation: type5 3s steps(20, end), blink .5s step-end infinite alternate;
+  animation-delay: 12s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    border: none;
+  }
+}
+
+
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@keyframes type4 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+
+@keyframes type5 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
